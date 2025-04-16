@@ -2,9 +2,8 @@
 
 Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters. In this template we will be importing this in Inferless Platform.
 
-## TL;DR - Deploy Gemma-7B using Inferless:
-- Deployment of Deploy Gemma-7B model using [vLLM](https://github.com/vllm-project/vllm).
-- By using the vLLM, you can expect an average latency of 3.99 sec, generating an average of 62.51 tokens/sec where each token took 16.01 ms and an average cold start time of 16.62 sec using an A100 GPU(80GB).
+## TL;DR:
+- Deployment of Deploy CodeLlama13b model using [Transformers](https://github.com/huggingface/transformers).
 - Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and inferless-runtime-config.yaml.
 - Model class in app.py with initialize, infer, and finalize functions.
